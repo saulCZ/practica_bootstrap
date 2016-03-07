@@ -584,26 +584,25 @@ li.blog-art-info-stags-left span{
 		bottom:-40px;
 	}
 	.portfolio .label-bg {
-			background: #22B4B8;
-			width: 100%;
-			height:100%;
-			position: absolute;
-			top:0;
-			left:0;
-		}
-		.portfolio .label-text {
-			color:#fff;
-			position: relative;
-			z-index:500;
-			padding:5px 8px;
-		}
-			
-			.portfolio .text-category {
-				display:block;
-				font-size:9px;
-				font-size: 12px;
-				text-transform:uppercase;
-			}
+        background: #22B4B8;
+        width: 100%;
+        height:100%;
+        position: absolute;
+        top:0;
+        left:0;
+}
+.portfolio .label-text {
+    color:#FFF;
+    position: relative;
+    z-index:500;
+    padding:5px 8px;
+}
+.portfolio .text-category {
+    display:block;
+    font-size:9px;
+    font-size: 12px;
+    text-transform:uppercase;
+}
 /* Self Clearing Goodness */
 .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 .clearfix:before,
@@ -727,7 +726,7 @@ li.blog-art-info-stags-left span{
 .b-from-left{
 	position: relative;
 	left: -100%;
-	background: rgba(214, 95, 88, 0.95);
+	background: rgba(214, 95, 88, 0.6);
 	height: 100%;
 	margin: 0;
 }
@@ -917,6 +916,7 @@ a.catch-me:hover{
 }
 /*----- footer ----*/
 .footer{
+    color: #FFF;
 	background:#393939;
 	padding:4em 0;
 }
